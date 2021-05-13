@@ -15,7 +15,12 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     public function register()
     {
         $this->app->bind('loqate-api', function ($app) {
-            return new LoqateApi(config('services.loqate.key'));
+            $key = config('services.loqate.key');
+            if (! $key) {
+                throw new LoqateException('Please specify api key: services.loqate.key');
+            }
+
+            return new LoqateApi($key);
         });
     }
 }
