@@ -30,13 +30,13 @@ LOQATE_API_KEY="AA11-AA11-AA11-AA11"
 
 Simple call
 
-```injectablephp
+```php
 LaravelLoqate\Loqate::captureInteractiveFind()->setText('CT15 5LS')->setIsMiddleware()->call()->json();
 ```
 
 Set you api class
 
-```injectablephp
+```php
 use LaravelLoqate\APIs\AbstractAPI;
 
 class MyCaptureInteractiveFind extends AbstractAPI {
