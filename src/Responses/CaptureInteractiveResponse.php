@@ -16,12 +16,12 @@ class CaptureInteractiveResponse extends AbstractResponse
     {
         $items = $this->items();
 
-        return (! count($items)) || ! empty($items[0]['Error']);
+        return (!count($items)) || !empty($items[0]['Error']);
     }
 
     public function success(): bool
     {
-        return ! $this->failed();
+        return !$this->failed();
     }
 
     public function errorCode(): string

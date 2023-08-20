@@ -78,7 +78,7 @@ abstract class AbstractAPI
      */
     protected function http(): PendingRequest
     {
-        if (! $this->http) {
+        if (!$this->http) {
             $this->http = Http::acceptJson();
         }
 

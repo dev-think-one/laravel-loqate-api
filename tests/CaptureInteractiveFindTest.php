@@ -24,10 +24,10 @@ class CaptureInteractiveFindTest extends TestCase
             return Http::response([
                 'Items' => [
                     [
-                        'Id' => 'GB|RM|A|5644757',
-                        'Type' => 'Address',
-                        'Text' => 'Flat 3, Waldershare House',
-                        'Highlight' => '',
+                        'Id'          => 'GB|RM|A|5644757',
+                        'Type'        => 'Address',
+                        'Text'        => 'Flat 3, Waldershare House',
+                        'Highlight'   => '',
                         'Description' => 'Waldershare, Dover, CT15 5LS',
                     ],
                 ],
@@ -74,10 +74,10 @@ class CaptureInteractiveFindTest extends TestCase
             return Http::response([
                 'Items' => [
                     [
-                        'Error' => 'testError',
+                        'Error'       => 'testError',
                         'Description' => 'testDescription',
-                        'Cause' => 'testCause',
-                        'Resolution' => 'testResolution',
+                        'Cause'       => 'testCause',
+                        'Resolution'  => 'testResolution',
                     ],
                 ],
             ], 200);

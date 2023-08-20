@@ -16,7 +16,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     {
         $this->app->bind('loqate-api', function ($app) {
             $key = config('services.loqate.key');
-            if (! $key) {
+            if (!$key) {
                 throw new LoqateException('Please specify api key: services.loqate.key');
             }
 

@@ -31,7 +31,7 @@ class LoqateApi
      */
     public function api(string $abstract, ?string $key = null): AbstractAPI
     {
-        if (! is_subclass_of($abstract, AbstractAPI::class)) {
+        if (!is_subclass_of($abstract, AbstractAPI::class)) {
             throw new LoqateException('$abstract should be child of AbstractAPI');
         }
 
