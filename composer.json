@@ -1,16 +1,16 @@
 {
-    "name": "yaroslawww/laravel-loqate-api",
+    "name": "think.studio/laravel-loqate-api",
     "description": "Loqate api integration for laravel",
     "keywords": [
         "loqate",
         "laravel-loqate"
     ],
-    "homepage": "https://github.com/yaroslawww/laravel-loqate-api",
+    "homepage": "https://github.com/dev-think-one/laravel-loqate-api",
     "license": "MIT",
     "authors": [
         {
             "name": "Yaroslav Georgitsa",
-            "email": "yaroslav.georgitsa@gmail.com",
+            "email": "yg@think.studio",
             "homepage": "https://github.com/yaroslawww",
             "role": "Developer"
         }

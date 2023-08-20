@@ -1,11 +1,18 @@
 # Laravel: [Loqate](https://www.loqate.com/) API integration
 
+![Packagist License](https://img.shields.io/packagist/l/think.studio/laravel-loqate-api?color=%234dc71f)
+[![Packagist Version](https://img.shields.io/packagist/v/think.studio/laravel-loqate-api)](https://packagist.org/packages/think.studio/laravel-loqate-api)
+[![Total Downloads](https://img.shields.io/packagist/dt/think.studio/laravel-loqate-api)](https://packagist.org/packages/think.studio/laravel-loqate-api)
+[![Build Status](https://scrutinizer-ci.com/g/dev-think-one/laravel-loqate-api/badges/build.png?b=main)](https://scrutinizer-ci.com/g/dev-think-one/laravel-loqate-api/build-status/main)
+[![Code Coverage](https://scrutinizer-ci.com/g/dev-think-one/laravel-loqate-api/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/dev-think-one/laravel-loqate-api/?branch=main)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dev-think-one/laravel-loqate-api/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/dev-think-one/laravel-loqate-api/?branch=main)
+
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require yaroslawww/laravel-loqate-api
+composer require think.studio/laravel-loqate-api
 ```
 
 Configuration in *.env*
